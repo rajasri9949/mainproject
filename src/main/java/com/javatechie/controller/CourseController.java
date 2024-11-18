@@ -57,12 +57,6 @@ public class CourseController {
         }
     }
 
-    @GetMapping("/health")
-    public String healthCheck() {
-        return "UP";
-    }
-
-
     @GetMapping("/welcome")
     public String greetings() {
         return "Hello WELCOME , AWS CICD MAIN PROJECT !";
